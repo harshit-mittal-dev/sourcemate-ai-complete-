@@ -1,0 +1,13 @@
+{
+  "name": "notebook-gemini-chat",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix server start",
+    "frontend": "npm --prefix notebook-chatbot-frontend run dev",
+    "build": "npm --prefix notebook-chatbot-frontend run build",
+    "lint": "npm --prefix notebook-chatbot-frontend run lint",
+    "docker:build": "docker build -t chatstream:local .",
+    "docker:run": "docker run --env-file server/.env -p 3001:3001 chatstream:local"
+  }
+}

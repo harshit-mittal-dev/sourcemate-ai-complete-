@@ -1,0 +1,16 @@
+.git
+.github
+.agents
+.codex
+node_modules
+server/node_modules
+notebook-chatbot-frontend/node_modules
+notebook-chatbot-frontend/dist
+build
+npm-debug.log*
+.env
+server/.env
+notebook-chatbot-frontend/.env
+Dockerfile
+docker-compose.yml
+README.local.md
